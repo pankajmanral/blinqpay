@@ -51,13 +51,18 @@ table {
 :root{
 	--color-primary : #FFF;
 
-	--bg-primary : #F7F3FA;;
+	--bg-primary : #F7F3FA;
 	--bg-secondary : #FFBC51;
 	--bg-tertiary : #798AC9;
 	--transition-default: all .3s ease-in-out;
 
 	--font-regular : 'NovaRegular';
 	--font-bold : 'NovaBold'
+}
+
+
+body{
+    background-color: var(--bg-primary);
 }
 
 .container{
@@ -96,8 +101,4 @@ table {
 .btn:hover{
 	border: 1px solid var(--color-primary);
 	background: transparent;
-}
-
-.test{
-	height: 200vh;
 }

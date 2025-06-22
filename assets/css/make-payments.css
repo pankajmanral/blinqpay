@@ -1,0 +1,81 @@
+.make-payments {
+    position: relative;
+    margin-top: 838px;
+}
+
+.make-payments .make-payments-wrapper {
+    display: flex;
+}
+
+.make-payments .make-payment-card-wrapper {
+    display: flex;
+}
+
+.make-payments .card-left-container {
+    margin-top: 150px;
+}
+
+.make-payments .card-right-container {
+    margin-left: 45px;
+    margin-top: 83px;
+}
+
+.make-payments .make-payment-card {
+    width: 100%;
+    max-width: 280px;
+    padding: 29px 30px;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    margin-bottom: 36px;
+}
+
+.make-payments .make-payment-card:last-child {
+    margin-bottom: 0;
+}
+
+.make-payments .card-heading {
+    color: #5C5E6E;
+    font-family: var(--font-bold);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.292px;
+    letter-spacing: 0.88px;
+}
+
+.make-payments .card-description {
+    color: #756F6F;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.6px;
+    letter-spacing: 1.2px;
+    margin-top: 8px;
+}
+
+.make-payments .make-payment-right-content {
+    width: 100%;
+    max-width: 331px;
+    margin-left: 129px;
+}
+
+.make-payments .section-heading {
+    color: #857885;
+    font-family: var(--font-bold);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 51.44px;
+    letter-spacing: 1.6px;
+}
+
+.make-payments .section-description {
+    color: #857885;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.576px;
+    letter-spacing: 0.64px;
+}
