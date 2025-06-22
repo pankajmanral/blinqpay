@@ -1,0 +1,100 @@
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner .banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner .banner-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 206px;
+}
+
+.banner .banner-left-content {
+    width: 100%;
+    max-width: 397px;
+}
+
+.banner .banner-heading {
+    color: var(--color-primary);
+    font-family: "Proxima Nova";
+    font-size: 54.764px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner .banner-description {
+    margin-top: 1.125rem;
+    color: var(--color-primary);
+    font-family: "Proxima Nova";
+    font-size: 18.2544px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner .start-now {
+    margin-top: 2.3763rem;
+    padding: 15px 60px;
+    background-color: var(--bg-tertiary);
+    color: var(--color-primary);
+    border: 1px solid var(--bg-tertiary);
+}
+
+
+.banner .banner-right-images {
+    position: absolute;
+    right: 10%;
+    top: -24%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .computer-img-two {
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
+
+@media (max-width:1331px) {
+
+    .banner .banner-wrapper {
+        flex-direction: column;
+    }
+
+    .banner .banner-left-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 600px;
+    }
+
+    .banner .banner-right-images {
+        display: flex;
+        left: 25%;
+        margin-top: 17%;
+    }
+
+}
+
+@media (max-width:1101px) {
+    .banner .banner-wrapper {
+        top: 150px;
+    }
+
+    .banner .banner-right-images {
+        display: flex;
+        left: 19%;
+        margin-top: 17%;
+    }
+}
