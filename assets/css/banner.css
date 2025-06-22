@@ -26,24 +26,25 @@
 
 .banner .banner-heading {
     color: var(--color-primary);
-    font-family: "Proxima Nova";
+    font-family: var(--font-bold);
     font-size: 54.764px;
     font-weight: 800;
     line-height: normal;
 }
 
 .banner .banner-description {
-    margin-top: 1.125rem;
+    margin-top: 18px;
     color: var(--color-primary);
-    font-family: "Proxima Nova";
+    font-family: var(--font-regular);
     font-size: 18.2544px;
     font-weight: 400;
     line-height: normal;
 }
 
 .banner .start-now {
-    margin-top: 2.3763rem;
+    margin-top: 38.0208px;
     padding: 15px 60px;
+    font-family: var(--font-regular);
     background-color: var(--bg-tertiary);
     color: var(--color-primary);
     border: 1px solid var(--bg-tertiary);
@@ -64,6 +65,10 @@
     left: 15%;
 }
 
+.banner .mobile-banner-logos-wrapper {
+    display: none;
+}
+
 @media (max-width:1331px) {
 
     .banner .banner-wrapper {
@@ -82,19 +87,103 @@
     .banner .banner-right-images {
         display: flex;
         left: 25%;
-        margin-top: 17%;
+        margin-top: 21%;
     }
 
 }
 
-@media (max-width:1101px) {
+@media (max-width:1210px) {
     .banner .banner-wrapper {
-        top: 150px;
+        top: 120px;
     }
 
     .banner .banner-right-images {
         display: flex;
         left: 19%;
-        margin-top: 17%;
     }
+}
+
+@media (max-width:992px) {
+    .banner .banner-wrapper {
+        top: 110px;
+    }
+
+    .banner .banner-heading{
+        font-size: 49.764px;
+    }
+}
+
+@media (max-width:860px) {
+    .banner .banner-description {
+        font-size: 15.2544px;
+    }
+}
+
+@media (max-width:769px) {
+
+    .banner .banner-wrapper {
+        top: 200px;
+    }
+
+    .banner .banner-right-images {
+        display: none;
+    }
+
+    .banner .banner-left-content {
+        display: flex;
+        flex-direction: column;
+        left: 0%;
+        transform: translateX(-0%);
+        max-width: 100%;
+    }
+
+    .banner .start-now {
+        margin-top: 20px;
+    }
+
+    .banner .mobile-banner-logos-wrapper {
+        margin-top: 25.09px;
+    }
+
+    .banner .mobile-banner-logos-wrapper {
+        display: flex;
+        margin-top: 35.09px;
+    }
+
+    .banner .partner-logo {
+        margin-left: 53.3px;
+    }
+
+    .banner .partner-logo:first-child {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width:526px) {
+    .banner .banner-wrapper {
+        top: 100px;
+    }
+
+    .banner .banner-left-content {
+        max-width: 326px;
+        left: 0%;
+        transform: translateX(-0%);
+        align-items: start;
+    }
+
+    .banner .banner-heading {
+        font-size: 35.764px;
+    }
+
+    .banner .banner-description {
+        font-size: 12.2544px;
+        margin-top: 14px;
+    }
+
+    .banner .start-now {
+        margin-top: 13.0208px;
+        padding: 10px 40px;
+    }
+
 }

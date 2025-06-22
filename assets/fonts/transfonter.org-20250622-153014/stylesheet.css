@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaBold.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaBold.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova Cond';
+    src: url('FONTSPRINGDEMO-ProximaNovaCondRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaCondRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaCondRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaCondRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaCondRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Proxima Nova';
+    src: url('FONTSPRINGDEMO-ProximaNovaLightRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('FONTSPRINGDEMO-ProximaNovaLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-ProximaNovaLightRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-ProximaNovaLightRegular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

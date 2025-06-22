@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'NovaMediumRegular';
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondMediumRegular.eot');
+    src: url('FONTSPRINGDEMO-ProximaNovaCondMediumRegular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff2') format('woff2'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondMediumRegular.woff') format('woff'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NovaBold';
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaBold.eot');
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaBold.woff2') format('woff2'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaBold.woff') format('woff'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NovaRegular';
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondRegular.eot');
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondRegular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondRegular.woff2') format('woff2'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondRegular.woff') format('woff'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaCondRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NovaLight';
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaLightRegular.eot');
+    src: url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaLightRegular.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaLightRegular.woff2') format('woff2'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaLightRegular.woff') format('woff'),
+        url('/assets/fonts/transfonter.org-20250622-153014/FONTSPRINGDEMO-ProximaNovaLightRegular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
