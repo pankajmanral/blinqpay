@@ -2,7 +2,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     padding: 15px 0;
     transition: var(--transition-default);
@@ -13,21 +13,6 @@ header nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
-
-header .brand-logo {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-header .brand-name {
-    color: var(--color-primary);
-    color: #FFF;
-    font-family: var(--font-bold);
-    font-size: 36px;
-    font-weight: 600;
-    margin-left: 8.5px;
 }
 
 header .nav-list,
@@ -76,7 +61,7 @@ header aside {
     position: fixed;
     width: 30%;
     height: 100%;
-    background-color: white;
+    background-color: var(--color-primary);
     top: 0px;
     left: 0px;
     transform: translateX(-100%);
@@ -157,7 +142,13 @@ header aside .mobile-nav-items {
     }
 
     header .mobile-nav-links {
-        font-family: var(--primary-font);
+        text-decoration: none;
+        font-family: var(--font-regular);
         color: var(--secondary-color);
     }
+
+    header aside{
+        width: 60%;
+    }
+
 }

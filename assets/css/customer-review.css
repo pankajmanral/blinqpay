@@ -1,0 +1,236 @@
+.customer-review {
+    position: relative;
+}
+
+.customer-review .mobile-customer-review {
+    display: none;
+}
+
+.customer-review .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.customer-review .customer-review-bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.customer-review .customer-review-overlay,
+.customer-review .customer-review-overlay-sec {
+    position: absolute;
+    z-index: 1
+}
+
+.customer-review .customer-review-overlay {
+    top: -300px;
+    right: 0;
+}
+
+.customer-review .customer-review-overlay-sec {
+    top: -300px;
+    left: 0;
+}
+
+.customer-review .review-left-content {
+    width: 100%;
+    max-width: 483px;
+}
+
+.section-heading {
+    color: var(--color-primary);
+    font-family: var(--font-bold);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 51.44px;
+    letter-spacing: 4px;
+}
+
+.customer-review .section-description {
+    color: var(--color-primary);
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20.576px;
+    letter-spacing: 0.64px;
+    margin-top: 39px;
+}
+
+.customer-review .review-card {
+    position: absolute;
+    width: 100%;
+    max-width: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 56%;
+    top: -99%;
+}
+
+.customer-review .review-card-img {
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.customer-review .review-card-about {
+    color: var(--color-primary);
+    text-align: center;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.576px;
+    letter-spacing: 0.64px;
+    margin-top: 36px;
+}
+
+.customer-review .review-card-name {
+    color: var(--bg-secondary);
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: 21.123px;
+    ;
+    font-weight: 800;
+    line-height: 20.576px;
+    letter-spacing: 0.64px;
+    margin-top: 11px;
+}
+
+.customer-review .review-card-designation {
+    color: var(--bg-secondary);
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: 14.082px;
+    font-weight: 700;
+    line-height: 18.109px;
+    letter-spacing: 0.563px;
+    margin-top: 4px;
+}
+
+.customer-review .reviewer {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 2;
+}
+
+.customer-review .reviewer-img-one {
+    top: 7%;
+    right: 6%;
+}
+
+.customer-review .reviewer-img-two {
+    top: 29%;
+    right: 9%;
+}
+
+.customer-review .reviewer-img-three {
+    top: 45%;
+    right: 3%
+}
+
+@media (max-width:1500px) {
+    .customer-review .reviewer-img-two {
+        top: 29%;
+        right: 11%;
+    }
+
+    .customer-review .reviewer-img-three {
+        right: 10%
+    }
+}
+
+@media (max-width:1330px) {
+    .customer-review .review-card {
+        left: 47%;
+        top: -99%;
+    }
+
+    .customer-review .reviewer-img-one {
+        top: 7%;
+        right: 8%;
+    }
+
+    .customer-review .reviewer-img-two {
+        top: 29%;
+        right: 13%;
+    }
+
+    .customer-review .reviewer-img-three {
+        top: 48%;
+        right: 12%;
+    }
+}
+
+@media (max-width:1024px) {
+    .customer-review .review-left-content {
+        max-width: 434px;
+    }
+
+    .customer-review .review-card {
+        top: -27%;
+        max-width: 250px;
+    }
+
+    .customer-review .reviewer-img-two {
+        top: 31%;
+        right: 16%;
+    }
+
+    .customer-review .reviewer-img-three {
+        top: 53%;
+        right: 16%;
+    }
+}
+
+@media (max-width:991px) {
+
+    .customer-review .container {
+        position: relative;
+    }
+
+    .customer-review .desktop-customer-review {
+        display: none;
+    }
+
+    .customer-review .mobile-customer-review {
+        background: linear-gradient(96deg, #5C0E62 17.75%, #00B5D0 81.75%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .customer-review .review-card {
+        left: 0;
+        top: 0;
+    }
+
+    .customer-review .review-card {
+        position: relative;
+        margin-top: 70px;
+    }
+
+    .customer-review .mobile-section-heading {
+        color: var(--color-primary);
+        text-align: center;
+        font-family: var(--font-bold);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30.864px;
+        letter-spacing: 2.4px;
+        margin-top: 40px;
+        width: 100%;
+        max-width: 264px;
+    }
+
+    .customer-review .review-card-designation{
+        margin-bottom: 110px;
+    }
+
+
+}

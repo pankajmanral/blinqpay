@@ -41,7 +41,7 @@
     line-height: normal;
 }
 
-.banner .start-now {
+.start-now {
     margin-top: 38.0208px;
     padding: 15px 60px;
     font-family: var(--font-regular);
@@ -69,7 +69,7 @@
     display: none;
 }
 
-@media (max-width:1331px) {
+@media (max-width:1330px) {
 
     .banner .banner-wrapper {
         flex-direction: column;
@@ -108,14 +108,25 @@
         top: 110px;
     }
 
-    .banner .banner-heading{
+    .banner .banner-heading {
         font-size: 49.764px;
     }
+
+    .banner .banner-right-images {
+        left: 11%;
+    }
+
 }
 
 @media (max-width:860px) {
     .banner .banner-description {
         font-size: 15.2544px;
+    }
+}
+
+@media (max-width:821px) {
+    .banner .banner-right-images{
+        display: none;
     }
 }
 

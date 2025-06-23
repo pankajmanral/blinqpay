@@ -1,18 +1,86 @@
 /* reset css */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -20,85 +88,142 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-*{
+* {
 	box-sizing: border-box;
 }
 
-:root{
-	--color-primary : #FFF;
+:root {
+	--color-primary: #FFF;
+	--color-secondary : #5C5E6E;
+	--color-tertiary : #857885;
 
-	--bg-primary : #F7F3FA;
-	--bg-secondary : #FFBC51;
-	--bg-tertiary : #798AC9;
+	--bg-primary: #F7F3FA;
+	--bg-secondary: #FFBC51;
+	--bg-tertiary: #798AC9;
 	--transition-default: all .3s ease-in-out;
 
-	--font-regular : 'NovaRegular';
-	--font-bold : 'NovaBold'
+	--font-regular: 'NovaRegular';
+	--font-bold: 'NovaBold';
+
+	--gradient-border : linear-gradient(151deg, #00B5D0 3.87%, #5C0E62 110.68%);
+
 }
 
 
-body{
-    background-color: var(--bg-primary);
+body {
+	background-color: var(--bg-primary);
 }
 
-.container{
-    width: 100%;
-    max-width: 1132px;
+.container {
+	width: 100%;
+	max-width: 1132px;
 	padding: 0 16px;
-    margin: 0 auto;
-    /* border: 1px solid red; */
+	margin: 0 auto;
+	/* border: 1px solid red; */
 }
 
-.link-hover::after{
+.brand-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand-name {
+    color: var(--color-primary);
+    color: #FFF;
+    font-family: var(--font-bold);
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 8.5px;
+}
+
+.link-hover::after {
 	position: absolute;
-    content: '';
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--bg-tertiary);
+	content: '';
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: 0;
+	height: 2px;
+	background-color: var(--bg-tertiary);
 	transition: var(--transition-default);
 }
 
-.link-hover:hover::after{
+.link-hover:hover::after {
 	width: 100%;
 }
 
-.btn{
-    font-family: "Proxima Nova";
+.btn {
+	font-family: "Proxima Nova";
 	display: flex;
 	align-items: center;
 	cursor: pointer;
 	width: max-content;
 	transition: var(--transition-default);
+	cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
 	border: 1px solid var(--color-primary);
 	background: transparent;
+}
+
+.payment-span {
+	color: #5C0E62;
+}
+
+.learn-more {
+	color: #5C0E62;
+	font-family: var(--font-regular);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	text-decoration: none;
+	display: flex;
+	margin-top: 16px;
+	width: max-content;
 }

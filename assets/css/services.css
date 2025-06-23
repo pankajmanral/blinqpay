@@ -1,0 +1,125 @@
+.services {
+    position: relative;
+    background-color: var(--color-primary);
+}
+
+.services .service-card-wrapper {
+    margin-top: 150px;
+}
+
+.services .service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.services .service-card-content {
+    width: 100%;
+    max-width: 247px;
+}
+
+.services .card-title {
+    color: #E23434;
+    font-family: var(--font-bold);
+    font-size: 12.785px;
+    font-weight: 700;
+    line-height: 16.441px;
+    letter-spacing: 0.511px;
+}
+
+.services .card-heading {
+    color: var(--color-tertiary);
+    font-family: var(--font-bold);
+    font-size: 36.528px;
+    font-weight: 800;
+    line-height: 46.975px;
+    letter-spacing: 1.461px;
+}
+
+.services .card-description {
+    color: var(--color-tertiary);
+    font-family: var(--font-regular);
+    font-size: 14.611px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18.79px;
+    letter-spacing: 0.584px;
+}
+
+.services .card-img-wrapper {
+    margin-left: 123px;
+}
+
+.services .service-card:nth-child(2) {
+    margin-top: 0;
+    justify-content: start;
+}
+
+.services .service-card:last-child {
+    margin-top: 50px;
+}
+
+.services .service-card:nth-child(2) .service-card-content {
+    order: 2;
+}
+
+.services .service-card:nth-child(2) .card-img-wrapper {
+    order: 1;
+}
+
+.services .second-card-image {
+    margin-left: 0;
+    margin-right: 123px;
+}
+
+@media (max-width:991px) {
+
+    .services .service-card {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .services .service-card-content {
+        max-width: 100%;
+    }
+
+    .services .card-img-wrapper {
+        margin-left: 0px;
+    }
+
+    .services .service-card:nth-child(2) .service-card-content {
+        order: 1;
+    }
+
+    .services .service-card:nth-child(2) .card-img-wrapper {
+        order: 2;
+    }
+
+    .services .second-card-image {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width:768px) {
+    .services .service-card-wrapper {
+        margin-top: 50px;
+    }
+
+    .services .service-card-content {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:525px) {
+
+    .services .card-heading {
+        font-size: 24px;
+    }
+
+    .services .card-description{
+        font-size: 16px;
+    }
+}

@@ -3,6 +3,13 @@
     margin-top: 838px;
 }
 
+.make-payments .make-payment-overlay-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
 .make-payments .make-payments-wrapper {
     display: flex;
 }
@@ -27,6 +34,14 @@
     background-color: var(--color-primary);
     border-radius: 4px;
     margin-bottom: 36px;
+    border-left: 3px solid transparent;
+    border-image: var(--gradient-border) 1;
+    cursor: pointer;
+    transition: var(--transition-default);
+}
+
+.make-payments .make-payment-card:hover{
+    box-shadow: 7px 10px 50px 0px #E8E2F0;
 }
 
 .make-payments .make-payment-card:last-child {
@@ -34,7 +49,7 @@
 }
 
 .make-payments .card-heading {
-    color: #5C5E6E;
+    color: var(--color-secondary);
     font-family: var(--font-bold);
     font-size: 22px;
     font-style: normal;
@@ -55,13 +70,21 @@
 }
 
 .make-payments .make-payment-right-content {
+    position: relative;
     width: 100%;
     max-width: 331px;
     margin-left: 129px;
 }
 
+.make-payments .make-payment-img {
+    position: absolute;
+    z-index: -1;
+    top: -36px;
+    left: -45px;
+}
+
 .make-payments .section-heading {
-    color: #857885;
+    color: var(--color-tertiary);
     font-family: var(--font-bold);
     font-size: 40px;
     font-style: normal;
@@ -71,11 +94,119 @@
 }
 
 .make-payments .section-description {
-    color: #857885;
+    color: var(--color-tertiary);
     font-family: var(--font-regular);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 20.576px;
     letter-spacing: 0.64px;
+    margin-top: 4px;
+}
+
+
+.make-payments .make-payment-logos-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.make-payments .make-payment-partner-logo {
+    margin-left: 139px;
+}
+
+.make-payments .make-payment-partner-logo:first-child {
+    margin-left: 0;
+}
+
+.make-payments .mobile-make-payments {
+    display: none;
+}
+
+@media (max-width:1330px) {
+    .make-payments {
+        margin-top: 85%;
+    }
+}
+
+@media (max-width:1270px) {
+    .make-payments {
+        margin-top: 91%;
+    }
+}
+
+@media (max-width:1050px) {
+    .make-payments {
+        margin-top: 101%;
+    }
+}
+
+@media (max-width:901px) {
+    .make-payments {
+        margin-top: 110%;
+    }
+}
+
+@media (max-width:821px) {
+
+    body {
+        background-color: var(--color-primary);
+    }
+
+    .make-payments {
+        margin-top: 42%;
+    }
+
+    .make-payments .make-payments-wrapper,
+    .make-payments .make-payment-logos-wrapper {
+        display: none;
+    }
+
+    .make-payments .mobile-make-payments {
+        display: block;
+    }
+
+    .make-payments .mobile-image-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .make-payments .make-payments-mobile-heading {
+        color: var(--color-tertiary);
+        font-family: var(--font-bold);
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 51.44px;
+        letter-spacing: 0.96px;
+        margin-top: 22px;
+    }
+
+    .make-payments .make-payments-mobile-description {
+        color: var(--color-tertiary);
+        font-family: var(--font-regular);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20.576px;
+        letter-spacing: 0.64px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width:768px) {
+    .make-payments {
+        margin-top: 95%;
+    }
+}
+
+@media (max-width:525px) {
+    .make-payments .make-payments-mobile-heading {
+        font-size: 24px;
+        line-height: 30.44px;
+    }
+
+    .make-payments .make-payments-mobile-description {
+        line-height: 20.576px;
+    }
 }
