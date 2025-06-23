@@ -38,10 +38,8 @@
     border-image: var(--gradient-border) 1;
     cursor: pointer;
     transition: var(--transition-default);
-}
-
-.make-payments .make-payment-card:hover{
     box-shadow: 7px 10px 50px 0px #E8E2F0;
+    z-index: 5;
 }
 
 .make-payments .make-payment-card:last-child {
@@ -113,6 +111,19 @@
 
 .make-payments .make-payment-partner-logo {
     margin-left: 139px;
+    z-index: 5;
+}
+
+.make-payments .make-payment-partner-logo:first-child{
+    opacity: 0.3;
+}
+
+.make-payments .make-payment-partner-logo:nth-child(2){
+    opacity: 0.3;
+}
+
+.make-payments .make-payment-partner-logo:nth-child(4){
+    opacity: 0.3;
 }
 
 .make-payments .make-payment-partner-logo:first-child {

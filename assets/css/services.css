@@ -1,6 +1,13 @@
 .services {
     position: relative;
-    background-color: var(--color-primary);
+}
+
+.services .vector-3{
+    position: absolute;
+    z-index: -1;
+    top: -35%;
+    left: 0;
+    width: 100%;
 }
 
 .services .service-card-wrapper {
